@@ -1,2 +1,2 @@
-# ikea.alievdenis1.io
+# ikea.github.io
 IKEA delivery website
