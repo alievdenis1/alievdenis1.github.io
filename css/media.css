@@ -1,0 +1,471 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+body {
+
+	font-size: 16px;
+
+}
+
+	.phone{
+		font-size: 27px;
+	}
+
+	.backCall {
+		font-size: 15px;
+		width: 212px;
+
+	}
+
+	h1{
+		font-size: 41px;
+	}
+
+	h2{
+		font-size: 32px;
+
+	}
+
+	h3{
+		font-size: 25px;
+	}
+
+.krug{
+	width: 130px;
+	height: 130px;
+}
+
+.phone2{
+
+	display:block;
+	
+}
+
+.btn-2{
+	position: absolute;
+	margin-top:5px;
+	margin-left:10px;
+}
+
+
+.articul{
+	width: 235px;
+}
+
+.count {
+    width: 116px;
+}
+
+.pOut{
+	width: 104px;
+	padding-left: 10px;
+}
+
+.infoDelivery{
+	width: 200px;
+}
+
+.datesDelivery{
+	width: 367px;
+}
+
+.logo > img{
+	width: 150px;
+}
+
+.head2 {
+	 -moz-background-size: 126%; /* Firefox 3.6+ */
+    -webkit-background-size: 126%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 126%; /* Opera 9.6+ */
+    background-size: 126%; /* Современные браузеры */2
+}
+
+.termsDelivery{
+	margin-top: 20px;
+	padding-top: 13px;
+	width: 100%;
+	height: 128px;	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.blockDelivery{		
+		background-image: none;
+	}
+
+	.logo > img{
+		width: 155px;
+	}
+
+	body {
+
+		font-size: 15px;
+
+	}
+
+	nav{
+		display: none;
+	}
+
+	.mainMenuButton {
+		width: 71px;
+		height: 71px;
+		background-color: #206ab6;
+		border-radius: 15px;
+		border: 0px;
+		color: #fae313;
+		font-size: 36px;
+	}
+
+	.mainMenuButton:active{
+		background-color: #1a557f;
+	}
+
+	.head2 {
+		padding-bottom: 40px;
+	}
+
+	h1{
+		font-size: 31px;
+	}
+
+	h2{
+		font-size: 29px;
+
+	}
+
+	h3{
+		font-size: 22px;
+	}
+
+	.krug {
+		width: 95px;
+		height: 95px;
+	}
+
+
+	.articul{
+		width: 370px;
+	}
+
+	.count {
+		width: 136px;
+	}
+
+	.pOut{
+		width: 134px;
+		padding-left: 10px;
+	}
+
+	.infoDelivery{
+		width: 268px;
+	}
+
+	.datesDelivery{
+		width: 467px;
+	}
+
+	.plus{
+		width: 715px;
+		margin-bottom: 40px;
+		
+	}
+
+	input[type="checkbox"] + span {
+		margin-top: -10px;
+	} 
+	.needSbor{
+		margin-top: 10px;
+	}
+
+	.threeSposoba{
+		font-size: 17px;
+	}
+
+	.callImg{
+		width: 35px;
+		height: 35px;
+		-webkit-background-size: 18px;
+		background-size: 18px;
+	}
+
+	.btn-2{
+		position: absolute;
+		margin-top:1px;
+		margin-left:10px;
+	}
+
+	.differentDelivery{
+		margin-bottom: 13px;
+	}
+
+	.termsDelivery{
+		margin-top: 20px;
+		padding-top: 25px;
+		width: 100%;
+		height: 128px;	
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	
+	.mainMenuButton {
+		width: 63px;
+		height: 63px;
+		font-size: 30px;
+	}
+
+	.phone{
+		text-align: right;
+		font-size: 20px;
+	}
+
+	.backCall {
+		text-align: center;
+		width: 164px;
+		height: 33px;
+		font-size: 15px;
+	}
+
+	.logo > img{
+		width: 125px;
+	}
+
+	.krug{
+		width: 70px;
+		height: 70px;
+		display: inline-block;
+	}
+
+	.head2 {
+		background-image: none;
+	}
+
+	.leftCenter{
+		text-align: left;
+		margin-left: 20px;
+	}
+
+
+	.vericalCenter{
+		position: absolute;
+		top: 20px;
+		margin-left: 12px;
+	}
+
+	.ikeaHref{
+		padding-top:7px;
+	}
+
+	.ikeaHref a{
+		font-size: 25px;
+	}
+
+
+
+	.articul{
+		width: 190px;
+	}
+
+	.count {
+		width: 130px;
+	}
+
+	.pOut{
+		width: 114px;
+		padding-left: 10px;
+	}
+
+	.infoDelivery{
+		width: 160px;
+	}
+
+	.datesDelivery{
+		width: 250px;		
+	}
+
+	.plus{
+		width: 500px;
+		margin-bottom: 40px;
+
+		
+		
+	}
+
+	input[type="checkbox"] + span {
+		margin-top: -10px;
+	} 
+	.needSbor{
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	.centerXs{
+		text-align: center;
+	}
+
+	.callImg{
+		display: none;
+	}
+
+	.phone2{
+		font-size: 30px;		
+		position: relative;		
+		display: block;
+
+
+	}
+
+	.btn-2{
+		display: inline-block;
+		width: 220px;
+		position: relative;
+		
+	}
+
+	.ikeaEntry{
+		padding: 15px;
+	}
+
+	.socio > a{
+		font-size: 22px;
+	}
+
+	.socio > a  span{
+		font-size: 15px;
+		margin-top:6px;
+		margin-left: 4px;	
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 550px) {
+	
+
+	.contacts{
+		display: none;
+	}	
+
+	.logo > img{
+		width: 145px;
+	}
+
+	h1{
+		font-size: 26px;
+	}
+
+	h2{
+		font-size: 24px;
+
+	}
+
+	h3{
+		font-size: 21px;
+	}
+
+	.phoneNone{
+		display: none;
+	}
+
+	.spisokPriim{
+				margin-top: -80px;
+		margin-bottom: 50px
+	}
+	
+	.phoneYes{
+		display: block;
+	}
+
+	.krug{
+		margin-top: 30px;
+		display: inline-block;
+	}
+
+
+	.articul{
+		width: 100%;
+	}
+
+	.count {
+		width: 100%;
+	}
+
+	.pOut{
+		width: 100%;
+		padding-left: 10px;
+	}
+
+	.close{
+		margin-bottom: 60px;
+	}
+
+	.infoDelivery{
+		width: 100%;
+	}
+
+	.datesDelivery{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.plus{
+		
+		width: 100%;
+		margin-bottom: 80px;
+		
+		
+	}
+
+	input[type="checkbox"] + span {
+		margin-top: -10px;
+	} 
+
+	.needSbor{
+		margin-top: 0px;
+	}
+
+	#zakazat{
+	width: 100%;
+
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 300px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

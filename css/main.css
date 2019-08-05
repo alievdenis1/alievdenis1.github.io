@@ -1,0 +1,624 @@
+*::-webkit-input-placeholder {
+	color: #a0a0a0;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #a0a0a0;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #a0a0a0;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #a0a0a0;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 17px;
+	font-weight: 500 ;
+	min-width: 320px;
+	position: relative;
+	color: #2669b4;
+	background-color: #f8f8f6;
+}
+
+.menuOpen{
+	display: none;
+	z-index:1000;
+	position: absolute;
+	top:80px;
+	background-color: #f9e21a;
+	font-size: 30px;
+	width: 100%;
+}
+
+
+
+.callBackforma{
+	 width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden ;
+    position:fixed;
+    top:0px;
+     display: none;
+     z-index:1001;
+}
+
+
+.fromCallBackforma{	
+	position: fixed;
+	background-color: #f9e21a;
+
+	box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.095);
+	padding: 25px;
+	overflow:auto ;
+	
+
+	width:100%;
+	max-height: 370px ;
+	height: 100%;
+}
+
+
+
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+
+
+
+h1{
+	font-size: 45px;
+}
+
+h2{
+	font-size: 37px;
+
+}
+
+h3{
+	font-size: 30px;
+}
+
+.topLine {
+	margin-top: 30px;
+	
+}
+
+.center{
+	text-align:center;
+}
+
+.right{
+	text-align:right;
+}
+
+.left{
+	text-align:left;
+}
+
+.cancle{
+	width: 23px;
+	height: 23px;
+	padding: 15px;
+
+	display: inline-block;
+ 	
+
+
+	border-radius: 21px;
+	background-color: #2669b4;
+	border: none;
+	background-image: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-position: center;		
+}
+
+
+.phone{	
+	text-align: right;
+	font-size: 32px;
+}
+
+.phone a{
+	text-decoration: none; 	
+}
+
+
+nav{
+	text-align: center;
+	font-weight: 300 ;
+		margin-top: 20px;
+
+}
+
+.active {
+	font-weight: 500 ;
+}
+
+nav a {
+	text-decoration: none;
+		-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+	color: #2669b4;
+   
+} 
+
+nav a:hover {
+   color: #f9e21a; 
+} 
+
+.container{
+	top-margin: 100px;
+}
+
+.zag{
+	margin-top: 70px;
+}
+
+.zag2{
+	margin-top: 50px;
+
+}
+
+.zag2 > h2{
+	margin-top: 50px;
+	font-weight: 500 ;
+}
+
+.contacts{
+	text-align: right;
+}
+
+.logo > img{
+	width: 165px;
+}
+
+.backCall {
+	text-align: center;
+	width: 254px;
+	height: 33px;
+	background-color: #f9e21a;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	padding: 0;	
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.head2 {
+	text-align: center;	
+	background-image: url(../img/topBg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: bottom;
+	
+	padding-bottom: 80px;
+
+}
+
+.krug{
+	width: 165px;
+	height: 165px;
+	background: none;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+.krug > img{
+	width: 100%;
+
+}
+
+
+.backCall:hover { 
+  background-color: #ead30e;
+}
+
+nav ul li a{ 
+	color: #f9e21a; 
+} 
+
+.ikeaHref{
+	background-color: #2669b4;
+	min-height: 55px;
+	padding-top:4px;
+}
+
+.ikeaHref a{
+	font-size: 30px;	
+	text-decoration: none;
+	border-bottom: 1px solid ;
+	color: #f9e21a;
+}
+
+.ikeaHref a:hover {
+	color: #ead30e;
+}
+
+.deliveryForm {
+	background-color: #f9e21a;
+	padding-bottom: 80px;
+}
+
+.deliveryForm h2{
+	margin-top: 90px;
+	font-weight: 500 ;
+}
+
+.tInput{
+	border: none;
+	margin-bottom: 14px;
+	margin-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 43px;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: 300 ;	
+	display: inline-block;
+}
+
+
+
+.pOut{
+	margin-bottom: 14px;
+	margin-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	height: 43px;
+	background-color: #f9e21a;
+	border-radius: 20px;
+	font-weight: 700;	
+	color: #2669b4;
+	width: 122px;
+	border: 3px solid #2669b4;
+	display: inline-block;
+}
+
+.articul{
+	width: 260px;
+}
+
+.count{
+	width: 125px;
+}
+
+.infoDelivery{
+	width: 280px;
+}
+
+.datesDelivery{
+	width: 280px;
+}
+
+
+
+.numberHome{
+	width: 75px;
+}
+
+
+
+.close{
+
+	width: 43px;
+	height: 43px;
+	padding: 15px;
+	display: inline-block;
+
+	cursor: pointer;
+
+		border-radius: 21px;
+	background-color: #2669b4;
+	border: none;
+	background-image: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-position: center;
+		-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	margin-bottom: -15px;
+	margin-right: 5px;
+
+
+}
+
+.plus{
+	width: 525px;
+	height: 57px;
+	border: none;
+	border-radius: 15px;	
+	font-weight: 300;	
+	font-size: 24px;
+	background-color: #2669b4;
+	color:#f9e21a;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	text-align: center;
+	padding-top: 10px;
+display: inline-block;
+		cursor: pointer;
+}
+
+.plus:hover{
+	background-color: #1d5895;
+}
+
+.close:hover{
+	background-color: #1d5895;
+}
+
+.plus span{
+	font-weight: 700;	
+}
+
+.threeOptions{
+	margin-top: 40px;
+	font-size: 24px;
+}
+
+.itogo{
+margin-bottom: 30px;
+	font-size: 30px;
+}
+
+#zakazat{
+	width: 383px;
+height: 57px;
+background-color: #2669b4;
+border-radius: 15px;
+border:none;
+color: #f9e21a;
+font-size:30px;
+	-webkit-transition: all .08s;
+	-o-transition: all .08s;
+	transition: all .08s;
+}
+
+#zakazat:hover{
+	background-color: #1962a1;
+}
+
+
+
+label {
+ width: 41px; /* Ширина рисунка */
+ height: 41px; /* Высота рисунка */
+ display: inline-block; /* Блочный элемент */
+ position: relative; /* Относительное позиционирование */
+}
+
+input[type="checkbox"]{
+ margin-left: 5px;
+} 
+
+input[type="checkbox"] + span {
+ position: absolute; /* Абсолютное позиционирование */
+ left: 0; top: 0;
+ width: 100%; height: 100%;
+background-color: #f9e21a;
+border: 5px solid white;
+	border-radius: 15px;
+ cursor: pointer; /* Курсор в виде руки */
+
+ background-image: url(../img/checkBox.png);
+ background-repeat: no-repeat;
+  background-position: 0 15px;
+
+
+
+} 
+
+input[type="checkbox"]:checked + span {	
+  background-position: 6px -10px;
+}
+
+.boxCheckbox{
+	 width: 50px;
+	  display: inline-block; /* Блочный элемент */
+}
+
+.needSbor{
+	 margin-top: 7px;
+	 display: inline-block; /* Блочный элемент */
+	 position: absolute; /* Абсолютное позиционирование */
+
+}
+
+.differentDelivery{
+	background-color: #ededed;
+	padding-top:35px ;
+	padding-bottom: 75px;
+	margin-bottom: 41px;
+}
+
+.differentDelivery h3{
+	font-weight: 500;
+}
+
+.threeSposoba{
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.callImg{
+	width: 45px;
+	height: 45px;
+	background-color: #2669b4;
+	border-radius: 22px;
+	background-image: url(../img/callImg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.phone2{
+	font-size: 30px;
+	margin-top:-10px;
+	position: absolute;
+	margin-top: 2px;
+	display:inline-block;
+	margin-left:8px;
+}
+
+.btn-2{
+	position: absolute;
+	margin-top:8px;
+	margin-left:250px;
+}
+
+.price h3{
+	font-weight: 500;
+}
+
+.deliveryPrise{
+	font-weight: 300;
+}
+
+.blockDelivery{
+	font-weight: 300;
+	background-image: url(../img/gazel.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+table{
+	 line-height: 1.7;
+	 font-size:20px;
+	 width: 100%;
+	 text-align: left;	 
+}
+
+th {
+  padding: 15px; 
+  border: 1px solid #2669b4;
+  font-weight: 700;
+}
+td {
+  
+  padding: 5px 17px;
+  border: 1px solid #2669b4;
+  font-weight: 500;
+}
+
+.termsDelivery{
+	margin-top: 20px;
+	padding-top: 28px;
+	width: 100%;
+	height: 138px;
+	background-color: #2669b4;
+	border-radius: 15px;
+	color: #f9e21a;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 300;
+	
+}
+
+a{	
+	text-decoration: underline;	
+}
+
+
+.termsDelivery a{
+	color: #f9e21a;
+	font-size: 30px;	
+	padding-top: 35px;
+	text-decoration: underline;
+	font-weight: 500;	
+
+}
+
+.termsDelivery a:hover{
+	text-decoration: none;
+}
+
+.ikeaBg{
+
+	width: 100%;
+
+}
+
+.ikeaBg>img{
+	width: 100%;
+
+	}
+
+
+
+.ikeaEntry  p{
+	text-align: justify;
+}
+
+footer{	
+	background-color: #f9e21a;
+}
+
+.footerContent{
+	padding-top: 35px;
+	padding-bottom: 55px;
+}
+
+.socio > a{
+	font-size: 40px;
+}
+
+.socio > a  span{
+	font-size: 17px;
+	text-decoration: underline;
+	margin-top:23px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+.phoneYes{
+	display: none;
+}
+
+.hz{
+	font-size: 32px;
+}
+
+.hz span{
+	font-size: 23px;
+}
+
+.sofa img{
+	width: 100%;
+	max-width: 1470px;	
+}
+
+.lawyer{
+	font-size: 13px;
+}
